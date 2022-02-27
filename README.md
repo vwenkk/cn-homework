@@ -1,5 +1,5 @@
 # cn-homework
-##[第一周](https://github.com/wenxiansheng/cn-homework/blob/main/week-01/main.go)
+## [第一周](https://github.com/wenxiansheng/cn-homework/blob/main/week-01/main.go)
 课后练习 1.1
 编写一个小程序：
 给定一个字符串数组
@@ -17,7 +17,7 @@
 消费者：
 每一秒从队列中获取一个元素并打印，队列为空时消费者阻塞
 
-##[第二周](https://github.com/wenxiansheng/cn-homework/blob/main/week-02/main.go)
+## [第二周](https://github.com/wenxiansheng/cn-homework/blob/main/week-02/main.go)
 1. 接收客户端 request，并将 request 中带的 header 写入 response header
 2. 读取当前系统的环境变量中的 VERSION 配置，并写入 response header
 3. Server 端记录访问日志包括客户端 IP，HTTP 返回码，输出到 server 端的标准输出
