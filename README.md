@@ -23,3 +23,14 @@
 3. Server 端记录访问日志包括客户端 IP，HTTP 返回码，输出到 server 端的标准输出
 4. 当访问 localhost/healthz 时，应返回 200
 
+## [第三周](https://github.com/wenxiansheng/cn-homework/blob/main/week-03/Dockerfile)
+1. 构建本地镜像
+2. 编写 Dockerfile 将练习 2.2 编写的 httpserver 容器化
+3. 将镜像推送至 docker 官方镜像仓库
+4. 通过 docker 命令本地启动 httpserver
+5. 通过 nsenter 进入容器查看 IP 配置
+
+目前已经push到[官方repo](https://hub.docker.com/repository/docker/liuguannyi/httpserver)
+```
+docker run -d -p 80:80 liuguannyi/httpserver:1.0
+```
